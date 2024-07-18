@@ -8,22 +8,22 @@ import styles from "../styles/NavBar.module.css";
 const NavBarTop = () => {
   return (
     <Navbar bg="dark" data-bs-theme="dark" fixed="top">
-      <Container>
+      <Container expand="lg">
         <Col>
           <Navbar.Brand href="">Cheery</Navbar.Brand>
         </Col>
-        <Col xs="auto" className="w-50">
+        <Col xs="auto" className="w-50 d-none d-md-block">
           <Form inline>
             <Form.Control type="text" placeholder="Search" />
           </Form>
         </Col>
-        <Col>
-            <Navbar.Text className={styles.NavIcon}>
-              <i class="fa-regular fa-bell"></i>
-            </Navbar.Text>
-            <Navbar.Text className={styles.NavIcon}>
-            <i class="fa-regular fa-user"></i>
-            </Navbar.Text>
+        <Col className="d-none d-md-flex justify-content-end">
+          <Navbar.Text className={styles.NavIconLeft}>
+            <span className={`material-symbols-outlined ${styles.Size40}`}>notifications</span>
+          </Navbar.Text>
+          <Navbar.Text className={styles.NavIconLeft}>
+            <span className={`material-symbols-outlined ${styles.Size40}`}>account_circle</span>
+          </Navbar.Text>
         </Col>
       </Container>
     </Navbar>

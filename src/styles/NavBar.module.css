@@ -1,6 +1,33 @@
-.NavIcon{
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: white;
+/* Padding on the right */
+.NavIconLeft {
+  align-self: end;
+  cursor: pointer;
+  color: white;
+}
+
+/* Padding on the left */
+.NavIconRight {
+  cursor: pointer;
+  color: white;
+}
+
+/*from https://developers.google.com/fonts/docs/material_symbols*/
+.Size40 {
+  font-size: 40px;
+  font-variation-settings: "OPSZ" 40;
+}
+
+.Size30 {
+  font-size: 30px;
+  font-variation-settings: "OPSZ" 40;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 500px){
+  .NavIconLeft {
     padding-left: 2.5rem;
+  }
+  .NavIconRight {
+    padding-right: 2.5rem;
+  }
 }
