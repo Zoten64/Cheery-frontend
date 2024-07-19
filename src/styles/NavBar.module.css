@@ -1,28 +1,29 @@
-/* Padding on the right */
+/* Alignment to the right */
 .NavIconLeft {
   align-self: end;
   cursor: pointer;
-  color: white;
+  
 }
 
-/* Padding on the left */
+/* default alignment, AKA the start */
 .NavIconRight {
   cursor: pointer;
-  color: white;
 }
 
 /*from https://developers.google.com/fonts/docs/material_symbols*/
 .Size40 {
   font-size: 40px;
   font-variation-settings: "OPSZ" 40;
+  color: white;
 }
 
 .Size30 {
   font-size: 30px;
   font-variation-settings: "OPSZ" 40;
+  color: white;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Larger devices (500px and up) */
 @media only screen and (min-width: 500px){
   .NavIconLeft {
     padding-left: 2.5rem;
