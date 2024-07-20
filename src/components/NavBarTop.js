@@ -4,21 +4,26 @@ import Navbar from "react-bootstrap/Navbar";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
 import styles from "../styles/NavBar.module.css";
+import { NavLink } from "react-router-dom";
 
 const NavBarTop = () => {
   const loggedInIcons = (
     <>
       <Col className="d-none d-md-flex justify-content-end">
+      <NavLink to="/notifications" className={styles.FitContent}>
         <Navbar.Text className={styles.NavIconLeft}>
           <span className={`material-symbols-outlined ${styles.Size40}`}>
             notifications
           </span>
         </Navbar.Text>
+      </NavLink>
+      <NavLink to="/user" className={styles.FitContent}>
         <Navbar.Text className={styles.NavIconLeft}>
           <span className={`material-symbols-outlined ${styles.Size40}`}>
             account_circle
           </span>
         </Navbar.Text>
+      </NavLink>
       </Col>
     </>
   );
@@ -26,11 +31,13 @@ const NavBarTop = () => {
   const loggedOutIcons = (
     <>
       <Col className="d-none d-md-flex justify-content-end">
+      <NavLink to="/login" className={styles.FitContent}>
         <Navbar.Text className={styles.NavIconLeft}>
           <span className={`material-symbols-outlined ${styles.Size40}`}>
             login
           </span>
         </Navbar.Text>
+      </NavLink>
       </Col>
     </>
   );
@@ -46,7 +53,7 @@ const NavBarTop = () => {
             <Form.Control type="text" placeholder="Search" />
           </Form>
         </Col>
-        {loggedInIcons}
+        {loggedOutIcons}
       </Container>
     </Navbar>
   );

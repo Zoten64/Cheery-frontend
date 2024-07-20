@@ -1,0 +1,45 @@
+.Container {
+    display: grid;
+    height: 80vh;
+    align-content: center;
+}
+
+.InnerContainer{
+    height: fit-content;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(33, 37, 41);
+    border-radius: 20px;
+    padding: 2rem;
+    align-content: center;
+}
+
+.Button{
+    width: 100%;
+    background-color: #e02716;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+
+.Button:hover{
+    background-color: #ba1f11;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+/* Larger devices (500px and up) */
+@media only screen and (min-width: 500px){
+    .InnerContainer{
+        width: 75%;
+        border-radius: 20px;
+        padding: 5rem;
+    }
+  }
+  

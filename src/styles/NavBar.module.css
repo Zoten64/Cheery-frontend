@@ -1,13 +1,16 @@
 /* Alignment to the right */
 .NavIconLeft {
+  display: inline-block;
   align-self: end;
   cursor: pointer;
-  
+  height: 100%;
 }
 
 /* default alignment, AKA the start */
 .NavIconRight {
+  display: inline-block;
   cursor: pointer;
+  height: 100%;
 }
 
 /*from https://developers.google.com/fonts/docs/material_symbols*/
