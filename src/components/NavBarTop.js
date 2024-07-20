@@ -46,7 +46,7 @@ const NavBarTop = () => {
     <Navbar bg="dark" data-bs-theme="dark" fixed="top">
       <Container expand="lg">
         <Col>
-          <Navbar.Brand href="">Cheery</Navbar.Brand>
+          <Navbar.Brand href="/">Cheery</Navbar.Brand>
         </Col>
         <Col xs="auto" className="w-50 d-none d-md-block">
           <Form inline>
