@@ -190,6 +190,16 @@ Must have
 
 Below you can find documentation on the progress of the development categorized into dates. Note that not all days may not be documented
 
+<details> 
+<summary> 18/7/2024 - [placeholder date 'cause I'm not sure when this will be done] </summary>
+
+These days have been spent building the visual part of the frontend. Functionality has not yet been implemented. Here's a list of what has been done
+- Responsive navbar
+- Icons depending on if user is logged in or not (currently not functional without changing the code manually)
+- log in and sign up pages
+
+</details>
+
 # Design
 
 # Wireframes
