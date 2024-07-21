@@ -1,0 +1,4 @@
+/*Used to push posts down on the post page to prevent them from being overlapped by the links*/
+.Spacer{
+    margin-top: 80px;
+}
