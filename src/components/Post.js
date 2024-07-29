@@ -1,10 +1,19 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "../styles/Post.module.css";
+import Avatar from "./Avatar";
 
 const Post = () => {
   return (
     <Container className={styles.PostContainer}>
+      <Row>
+        <Col>
+        <Avatar/>
+        </Col>
+        <Col>
+        <p>@coolsunflower</p>
+        </Col>
+      </Row>
       <Row>
         <h2 className={styles.Title}>Title</h2>
       </Row>
