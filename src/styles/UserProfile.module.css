@@ -1,0 +1,32 @@
+.Icons{
+    display: flex;
+    align-items: center;
+}
+
+.Icons span{
+    color: white;
+    margin-right: 10px;
+    font-size: 36px;
+}
+.Icons p{
+    color: white;
+    display: inline;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.PostBar{
+    background-color: rgb(33, 37, 41);
+    min-width: 100%;
+    margin: 20px 0;
+    padding: 2rem 0;
+    overflow: hidden;  
+}
+
+/* Larger devices (768px and up) */
+@media only screen and (min-width: 768px) {
+    .PostBar {
+        padding: 2rem 5vw;
+    }
+  }
+  
