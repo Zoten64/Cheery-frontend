@@ -7,7 +7,7 @@ const Comment = () => {
   return (
     <Container className={styles.CommentContainer}>
         <Row> 
-            <Col className='col-auto'>
+            <Col className={`col-auto ${styles.Avatar}`}>
             <Avatar />
             </Col>
             <Col>

@@ -9,7 +9,7 @@ const UserProfile = () => {
     <>
       <Container>
         <Row>
-          <Col>
+          <Col className={styles.Avatar}>
             <Avatar />
           </Col>
           <Col>

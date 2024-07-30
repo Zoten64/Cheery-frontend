@@ -11,3 +11,9 @@
     font-weight: 600;
     font-size: 1.2rem;
 }
+
+.Avatar {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}

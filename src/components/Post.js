@@ -7,11 +7,11 @@ const Post = () => {
   return (
     <Container className={styles.PostContainer}>
       <Row>
-        <Col>
-        <Avatar/>
+        <Col className={styles.Avatar}>
+          <Avatar />
         </Col>
         <Col>
-        <p>@coolsunflower</p>
+          <p>@coolsunflower</p>
         </Col>
       </Row>
       <Row>
