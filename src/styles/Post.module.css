@@ -62,7 +62,13 @@
 
 .Avatar {
     height: 50px;
-    width: 50px;
+    flex-basis: 50px;
+    flex-grow: 0;
+}
+
+.Username{
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 /* Larger devices (768px and up) */

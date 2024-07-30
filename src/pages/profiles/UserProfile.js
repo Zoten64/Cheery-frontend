@@ -7,7 +7,7 @@ import Post from "../../components/Post";
 const UserProfile = () => {
   return (
     <>
-      <Container>
+      <Container className="my-4">
         <Row>
           <Col className={styles.Avatar}>
             <Avatar />
@@ -17,9 +17,9 @@ const UserProfile = () => {
             <p>they/them</p>
             <p>This is a bio</p>
           </Col>
-          <Col>
-            <div>
-              <span class="material-symbols-outlined">person_add</span>
+          <Col className="align-items-center justify-content-center d-flex">
+            <div className={styles.FollowButtonFollowed}>
+              <span class={`material-symbols-outlined ${styles.FollowIcon}`}>person_add</span>
             </div>
           </Col>
         </Row>

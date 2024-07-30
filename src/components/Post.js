@@ -11,7 +11,7 @@ const Post = () => {
           <Avatar />
         </Col>
         <Col>
-          <p>@coolsunflower</p>
+          <p className={styles.Username}>@coolsunflower</p>
         </Col>
       </Row>
       <Row>

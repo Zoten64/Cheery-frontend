@@ -24,8 +24,24 @@
 }
 
 .Avatar{
-    width: 100px;
+    flex-basis: 100px;
+    flex-grow: 0;
     height: 100px;
+}
+
+.FollowButtonFollowed{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    width: min-content;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.FollowIcon{
+    color: white;
+    font-size: 36px;
 }
 
 /* Larger devices (768px and up) */
